@@ -1,0 +1,47 @@
+git
+
+comandos
+configuração inicial
+
+cadastro
+git config --global user.name "oliveira.ti"
+git config --global user.email "oliveira.ti@chevroletnova.com.br"
+git config --global core.editor Vs Code
+
+ver
+git config user.name
+git config user.email
+
+ver lista
+git config --list
+
+dentro da pasta do projeto iniciando o git
+git init
+
+dentro da pasta do projeto verificando status
+git status
+
+dentro da pasta do projeto add novo arquivo/alteração
+git add -A adiciona tudo
+git add nome arquivo index.html
+
+dentro da pasta do projeto commit o que foi adicionado add
+git commit -m "texto informativo do commit"
+
+dentro da pasta do projeto commit e add juntos
+git commit -am "texto informativo do commit"
+
+dentro da pasta do projeto log o que foi feito
+git log
+
+dentro da pasta do projeto branch em qual versão do projeto (master) principal
+git branch
+git branch nome de 1 novo branch
+git checkout muda de branch
+
+dentro da pasta do projeto branch em qual versão do projeto (master) principal
+git reset --soft ID = voltar estado mantendo tudo porem não commitado
+git reset --hard ID = voltar estado zerado
+
+dentro da pasta do projeto diff diferença q foi feita
+git diff
