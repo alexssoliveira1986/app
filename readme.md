@@ -1,5 +1,9 @@
-teste
+Criação do Git
 
-2
 
-3
+git status
+git log
+
+git add -A
+git commit -am "Texto"
+git push -u origin master
